@@ -18,7 +18,7 @@ st.set_page_config(page_title="Pet Recommender", page_icon="🐾", layout="cente
 # Cleancing data
 # -------------------------------
 
-df_data = pd.read_csv('data\pet_dataset_final.csv')
+df_data = pd.read_csv('data/pet_dataset_final.csv')
 df_data["Budget"] = pd.cut(
     df_data["Budget"],
     bins=[-1, 1000, 3000, float("inf")],    
