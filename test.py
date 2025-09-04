@@ -99,8 +99,8 @@ df_data_forms.to_csv("data_ready/dataset2.csv", index=False, encoding="utf-8-sig
 # -------------------------------
 # Load datasets Used data 
 
-df1 = pd.read_csv("data_ready\dataset2.csv").head(60)  
-df2 = pd.read_csv("data_ready\dataset1.csv") 
+df1 = pd.read_csv("data_ready/dataset2.csv").head(60)  
+df2 = pd.read_csv("data_ready/dataset1.csv") 
 df_combined = pd.concat([df1, df2], ignore_index=True)
 output_folder = "data_ready"
 os.makedirs(output_folder, exist_ok=True)
