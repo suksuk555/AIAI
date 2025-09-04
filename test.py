@@ -33,7 +33,7 @@ df_data.to_csv("data_ready/dataset1.csv", index=False, encoding="utf-8-sig")
 
 # New Cleancing data
 
-df_data_forms = pd.read_csv('data\pet_dataset_form.csv')
+df_data_forms = pd.read_csv('data/pet_dataset_form.csv')
 df_data_forms = df_data_forms.drop(["ประทับเวลา", "คะแนน"], axis=1)
 df_data_forms.rename(columns={"สัตว์เลี้ยงที่เลี้ยงอยู่คืออะไร": "PetChoice",
                    "เพศ":"Gender",
