@@ -210,7 +210,7 @@ with tabs[0]:
     st.markdown("<div class='section-title'>📂 Expense Management System</div>", unsafe_allow_html=True)
     col1, col2 = st.columns([1, 1.2], gap="large")
     with col1:
-        st.image(r"img\pro1\pic2.png", use_container_width=True,
+        st.image(r"img/pro1/pic2.png", use_container_width=True,
                  caption="สรุปรายรับ–รายจ่ายแบบกราฟ (ตัวอย่างจากแอป)")
     with col2:
         st.markdown("**บทบาท:** Scrum Project Manager & Developer")
