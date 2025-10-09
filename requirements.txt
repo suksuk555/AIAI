@@ -1,5 +1,8 @@
-streamlit>=1.45.1
-st-theme>=1.2.3
-streamlit-navigation-bar>=3.3.0
+streamlit
+streamlit-navigation-bar
 pandas
+numpy
+matplotlib
 scikit-learn
+tensorflow
+pillow
